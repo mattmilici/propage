@@ -1,0 +1,16 @@
+{
+    "name": "propage",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss tailwind.css -o dist/tailwind.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^9.8.6",
+        "postcss-cli": "^7.1.1",
+        "tailwindcss": "^1.7.3"
+    }
+}

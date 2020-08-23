@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Matt Milici</title>
+</head>
+
+<body class="bg-black text-white">
+    <!-- //-----------------------------------navbar start-----------------------------------// -->
+    <nav class="flex items-center justify-between flex-wrap  p-6">
+        <div class="flex items-center flex-shrink-0 mr-6">
+            <span class="font-semibold text-xl tracking-tight">Matt Milici</span>
+        </div>
+        <div class="block lg:hidden">
+            <button id="dropDownIcon" class="flex items-center px-3 py-2 rounded text-white">
+                        <svg
+                            class="fill-current h-3 w-3"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title >Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                        </svg>
+                    </button>
+        </div>
+        <div id="mobileDropDown" class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto inline">
+            <div class="text-sm lg:flex-grow">
+                <div class="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
+                    <a href="cards.html" class="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 ">
+                                About Me
+                            </a>
+                    <a href="#responsive-header" class="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
+                                Projects
+                            </a>
+                    <a href="#responsive-header" class="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
+                                Articles
+                            </a>
+                    <a href="#responsive-header" class="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
+                                Resume
+                            </a>
+                </div>
+            </div>
+            <div class="lg:flex lg:justify-end items-center flex-shrink-0 text-lg font-normal">
+                <a href="#responsive-header" class="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 ">
+                        Contact Me
+                    </a>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- //-----------------------------------navbar end-----------------------------------// -->
+    <!-- //-----------------------------------head end-----------------------------------// -->
+    <div class="md:flex md:flex-around  mt-8 mb-20 mx-20">
+        <div id="image" class="w-full md:w-1/2">
+            <img class="w-full md:w-3/4 m-auto border-white border-2 rounded-full" src="images/milici-profile-pic.png" alt="" />
+        </div>
+        <div class="text-center md:text-left w-full md:w-1/2 content-center self-center text-white">
+            <h1 id="Header-Name" class="text-6xl font-bold">Matt Milici</h1>
+            <p id="animated Text" class="text-2xl font-bold">
+                I am a
+                <span id="txt-type" class="text-yellow-300" data-wait="3000" data-words='["developer", "designer", "creator"]'></span>
+            </p>
+        </div>
+    </div>
+    <!-- //-----------------------------------head end-----------------------------------// -->
+    <!-- //-----------------------------------about me start-----------------------------------// -->
+    <div class="text-center md:text-left md:flex md:flex-around md:flex-row-reverse my-8 mx-20">
+        <div id="image" class="w-full md:w-5/12">
+            <img class="h-64 w-auto md:height-auto md:auto m-auto" src="images/aboutme.png" alt="" />
+        </div>
+        <div id="text-header" class="w-full md:w-7/12 content-center self-center text-white">
+            <h1 id="Header-Name" class="text-4xl font-bold my-3">About Me</h1>
+            <div class="text-left mr-3 text-lg leading-normal md:text-loose">
+                <p class="mb-2">Hey, What's up!</p>
+                <p class="mb-2">My name is Matt Milici and welcome to my personal site!</p>
+                <p class="mb-2">
+                    Currently, I am a Financial Analyst for a telecommunications company based out of San Diego. I graduated from Penn State {currentYear}{" "} years ago with a degree in Finance and Minor in Information Science and Technology. I recently started a 6 month
+                    Web Development bootcamp and will be using this site to showcase my work as well as sharpen my skills!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- //-----------------------------------about me end-----------------------------------// -->
+    <!-- //-----------------------------------Past Projects start-----------------------------------// -->
+    <div>
+
+
+        <div class="text-center md:text-left mt-8 mb-4 mx-20 my-3">
+            <h1 class="text-4xl font-bold">Projects</h1>
+            <a class="text-xl font-normal" href="">Github Repo</a>
+        </div>
+
+        <div class="flex flex-wrap justify-around mx-20">
+
+            <!-- // buff projct start -->
+            <div class="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto m-2">
+                <div class="flex space-x-4">
+                    <img class="rounded-full bg-gray-400 h-12 w-12" src="images/popcorn.png" />
+                    <div class="flex-1 py-1">
+                        <div class="rounded text-2xl font-bold w-3/4 top-0">Buff</div>
+                        <div class="">
+                            <div class="rounded">Test your movie knowledge with Buff by playing a computer in the classic movie game everyone loves!</div>
+                            <div class="mt-4 rounded flex justify-between">
+                                <a class="w-1/2" href="">Github Repo</a>
+                                <a class="w-1/2 text-right" href="">Live Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- buff projct end -->
+
+            <!-- // buff projct start -->
+            <div class="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto m-2">
+                <div class="flex space-x-4">
+                    <img class="rounded-full bg-gray-400 h-12 w-12" src="images/askD.png" />
+                    <div class="flex-1 py-1">
+                        <div class="rounded text-2xl font-bold w-3/4 top-0">Ask Dennis</div>
+                        <div class="">
+                            <div class="rounded">Tired of telling your kids no? No worries, let Dennis take care of that for you!</div>
+                            <div class="mt-4 rounded flex justify-between">
+                                <a class="w-1/2" href="">Github Repo</a>
+                                <a class="w-1/2 text-right" href="">Live Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- buff projct end -->
+            <!-- // buff projct start -->
+            <div class="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto m-2">
+                <div class="flex space-x-4">
+                    <img class="rounded-full bg-gray-400 h-12 w-12" src="images/weather.png" />
+                    <div class="flex-1 py-1">
+                        <div class="rounded text-2xl font-bold w-3/4 top-0">Weather App</div>
+                        <div class="">
+                            <div class="rounded">Get your 5 day forecast for any city in the world through the Open Weather API.</div>
+                            <div class="mt-4 rounded flex justify-between">
+                                <a class="w-1/2" href="">Github Repo</a>
+                                <a class="w-1/2 text-right" href="">Live Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- buff projct end -->
+
+        </div>
+        <!-- //-----------------------------------Past Projects end-----------------------------------// -->
+
+        <!-- //-----------------------------------Articles start-----------------------------------// -->
+
+        <h1 class="text-4xl font-bold mt-10 mx-20 text-center md:text-left my-3">Articles</h1>
+        <div class="flex flex-wrap mx-20 justify-center">
+            <div class="max-w-xs rounded overflow-hidden shadow-lg border-2 border-white bg-gray-400 m-4">
+                <img class="w-full" src="images/dennis1.jpeg" alt="Sunset in the mountains">
+                <div class="px-3 py-2">
+                    <div class="font-bold text-xl mb-2">Deploying A Localhost Server With Node.js and Express.js</div>
+                    <p class="text-gray-700 text-base">Step-by-step instructions on how to set up a localhost server using Node and Express.
+                    </p>
+                </div>
+                <div class="px-6 pt-2 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#NodeJS</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#JS</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Web Dev</span>
+                </div>
+            </div>
+            <div class="max-w-xs rounded overflow-hidden shadow-lg border-2 border-white bg-gray-400 m-4">
+                <img class="w-full" src="images/dennis1.jpeg" alt="Sunset in the mountains">
+                <div class="px-3 py-2">
+                    <div class="font-bold text-xl mb-2">Get Tailwind Up & Running</div>
+                    <p class="text-gray-700 text-base">
+                        Goodybe Bootstrap. Hello Tailwind! Learn how to get started with the Tailwind framework and create custome compoenents.
+                    </p>
+                </div>
+                <div class="px-6 pt-2 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Tailwind</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#CSS</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Web Dev</span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- //-----------------------------------Articles end-----------------------------------// -->
+
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>
