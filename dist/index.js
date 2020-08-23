@@ -30,7 +30,7 @@ TypeWriter.prototype.type = function() {
     $("#txt-type").text(this.txt);
 
     //Inital Type Speed
-    let typeSpeed = 300;
+    let typeSpeed = 150;
 
     if (this.isDeleting) {
         typeSpeed /= 2;
